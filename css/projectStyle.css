@@ -3,8 +3,14 @@
 	width: 100%;
 }
 header{
-	background-color: #0231f6;
 	color: #fff;
+}
+.headerBlueFon{
+	position: absolute;
+	width: 100%;
+	height: 872px;
+	background: linear-gradient(to bottom, #0230f5, #02d0d6);
+	z-index: -1;
 }
 
 .menu__list {
@@ -30,6 +36,7 @@ header{
 	font-family: OpenSans;
 	font-weight: bold;
 	letter-spacing: 1px;
+	color: white;
 }
 #logo{
 	width: 217px;
@@ -38,10 +45,71 @@ header{
 	font-family: OpenSans; /* Имя шрифта */
 	src: url(../fonts/OpenSans.ttf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+	font-family: OpenSansLight; /* Имя шрифта */
+	src: url(../fonts/OpenSansLight.ttf); /* Путь к файлу со шрифтом */
+}
 
 .selectLang,
 .buttonExit{
 	border: 1px solid #ffffff;
 	border-radius: 20px;
-	padding: 10px 20px;
+	padding: 5px 20px;
+	height: 36px;
+}
+.buttonExit{
+	margin-left: 20px
+}
+.headerRightBlock{
+	padding-top: 10px;
+}
+
+.headerBlock{
+	text-align: center;
+	color: white;
+	margin-top: 80px;
+	text-transform: uppercase;
+}
+.aboutOpen{
+	font-size: 12px;
+}
+.mainTitle{
+	font-size: 60px;
+	line-height: 74px;
+	font-family: OpenSansLight;
+	margin-top: 30px;
+}
+
+.mainButtons{
+	margin-top: 40px;
+}
+.buyHotelcoin,
+.loadWhitePaper{
+	width: 235px;
+	height: 61px;
+	border-radius: 49px;
+	box-shadow: 0 0 20px 7px rgba(255, 254, 254, 0.5);
+}
+.buyHotelcoin{
+	background-color: #ffffff;
+}
+.buyHotelcoin span,
+.loadWhitePaper span{
+	height: 17px;
+	font-family: OpenSans;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 61px;
+
+}
+.buyHotelcoin span{
+	width: 189px;
+	color: #4c4c4c;
+}
+.loadWhitePaper{
+	border: solid 3px #ffffff;
+}
+.loadWhitePaper span{
+	width: 195px;
 }
