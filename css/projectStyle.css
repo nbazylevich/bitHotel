@@ -113,3 +113,33 @@ header{
 .loadWhitePaper span{
 	width: 195px;
 }
+.newAndState{
+    margin-top: -150px;
+}
+.buidState,
+.projectNews{
+    width: 240px;
+    color: #616161;
+    font-size: 14px;
+}
+.buidState h4,
+.projectNews h4{
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #0081c4;
+}
+.buidState .iconsPr,
+.projectNews .iconsPr{
+    position: relative;
+    width: 55px;
+}
+.buidState .iconsPr .badge,
+.projectNews .iconsPr .badge{
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+.buidState img,
+.projectNews img{
+    width: 100%;
+}
