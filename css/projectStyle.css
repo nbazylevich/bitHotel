@@ -8,8 +8,8 @@
 }
 header{
 	color: #fff;
-	height: 872px;
 	background: linear-gradient(to bottom, #0230f5, #02d0d6);
+	height: 872px;
 }
 
 .menu__list {
@@ -161,4 +161,18 @@ header{
 }
 .block2 .rowItems{
 	margin-bottom: 50px;
+}
+footer{
+	height: 1189px;
+}
+.imgLocation{
+	width: 100%;
+	margin: 40px 0px;
+}
+.fonLocation{
+	background: linear-gradient(to bottom, #023cf4, #0286e5);
+}
+
+address h3{
+	text-transform: uppercase;
 }
