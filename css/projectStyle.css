@@ -1,6 +1,7 @@
 .container{
 	min-width: 1000px;
 	width: 100%;
+	margin: auto;
 }
 .min-container{
 	width: 810px;
@@ -163,7 +164,7 @@ header{
 	margin-bottom: 50px;
 }
 footer{
-	height: 1189px;
+	/*height: 1189px;*/
 }
 .imgLocation{
 	width: 100%;
@@ -175,4 +176,35 @@ footer{
 
 address h3{
 	text-transform: uppercase;
+}
+
+.contacts{
+	background: linear-gradient(to bottom, #0487e5, #02d0d6);
+	color: white;
+}
+.contactForm{
+	margin-top: 20px;
+}
+.contactForm input,
+.contactForm textarea{
+	width: 100%;
+	padding: 5px;
+}
+.contactForm input{
+	height: 46px;
+	padding-left: 20px;
+}
+.contactForm input,
+.contactForm textarea{
+	border-radius: 5px;
+	background-color: #f6f6f6;
+	border: solid 1px #dedede;
+}
+.submit{
+	width: 160px;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 100px;
+	background-color: #ffffff;
+	color: #4c4c4c;
 }
