@@ -38,6 +38,9 @@ header{
 	letter-spacing: 1px;
 	color: white;
 }
+.menu__list-link:hover{
+	color: white;
+}
 #logo{
 	width: 217px;
 }
@@ -50,6 +53,22 @@ header{
 	src: url(../fonts/OpenSansLight.ttf); /* Путь к файлу со шрифтом */
 }
 
+.iconSocial .myBadge{
+	margin-right: 10px;
+}
+.myBadge{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #a2b4fb;
+	color: #0232f4;
+}
+.myBadge:hover{
+	background-color: #f6f6f6;
+}
 .selectLang,
 .buttonExit{
 	border: 1px solid #ffffff;
@@ -57,11 +76,16 @@ header{
 	padding: 5px 20px;
 	height: 36px;
 }
+.selectLang:hover,
+.buttonExit:hover{
+	background-color: #0232f4;
+}
 .buttonExit{
-	margin-left: 20px
+	margin-left: 10px
 }
 .headerRightBlock{
 	padding-top: 10px;
+	float:right;
 }
 
 .headerBlock{
@@ -87,21 +111,20 @@ header{
 .loadWhitePaper{
 	width: 235px;
 	height: 61px;
+	line-height: 61px;
 	border-radius: 49px;
 	box-shadow: 0 0 20px 7px rgba(255, 254, 254, 0.5);
 }
 .buyHotelcoin{
 	background-color: #ffffff;
+	margin-right: 10px;
 }
 .buyHotelcoin span,
 .loadWhitePaper span{
-	height: 17px;
 	font-family: OpenSans;
 	font-size: 12px;
 	font-weight: bold;
 	letter-spacing: 2px;
-	line-height: 61px;
-
 }
 .buyHotelcoin span{
 	width: 189px;
@@ -109,9 +132,6 @@ header{
 }
 .loadWhitePaper{
 	border: solid 3px #ffffff;
-}
-.loadWhitePaper span{
-	width: 195px;
 }
 .newAndState{
     margin-top: -150px;
