@@ -179,27 +179,27 @@
 </div>
 
 <div class="block3 posRelative">
-    <div style="position: absolute; top: 106px; height: 7px; width: 100%; background-color: #027be7;z-index: -1;"></div>
+    <div style="position: absolute; top: 186px; height: 7px; width: 100%; background-color: #027be7;"></div>
     <div class="container" style="background-color: white">
         <h3 class="text-center">Процесс работы</h3>
 
-        <div class="posRelative">
+        <div class="posRelative" style="margin: 100px 0">
             <div>
                 <img src="img/blueLineLeft.png" alt="blueLine" class="blueLine blueLineLeft">
             </div>
 
-            <div class="inlineBlock posRelative" style="margin-right: 45px">
+            <div ng-repeat="item in itemsWork" class="inlineBlock posRelative" style="padding-right: 45px">
                 <div class="circle text-center posRelative">
-                    <span>1</span>
+                    <span ng-bind="item.indx"></span>
                     <div style="position: absolute; width: 4px; height: 95px; background-color: #02d0d6; z-index: 1;left: 30px; top:70px"></div>
                 </div>
-                <img src="img/blueLine.png" alt="blueLine" class="blueLine">
+                <img ng-if="!$last" src="img/blueLine.png" alt="blueLine" class="blueLine" style="background-color: white; ">
+                <img ng-if="$last" src="img/blueLineRight.png" alt="blueLine" class="blueLine" style="background-color: white; ">
                 <div>
                     <div class="grayCircle text-center posRelative" style="display: flex; margin-top: 50px">
                         <div class="width-100" style="margin: auto">
-                            <h5>06 Сентября, 2017</h5>
-                        <span>But I must explain to you how all this mistaken idea
-                            of denouncing pleasure and praising </span>
+                            <h5 ng-bind="item.date"></h5>
+                        <span ng-bind="item.text"></span>
                         </div>
                     </div>
                 </div>
