@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <link type="text/css" href="css/mystyle.css" rel="stylesheet">
     <link type="text/css" href="css/projectStyle.css" rel="stylesheet">
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link type="text/css" href="css/mystyle.css" rel="stylesheet">
 </head>
 <body ng-controller="mainCtrl">
 
@@ -243,10 +243,12 @@
                 <div class="col-xs-6">
                     <div class="contactForm">
                         <div class="row formItems">
-                            <div class="col-xs-6">
+                            <div class="col-xs-6 posRelative">
+                                <i class="fa fa-user" aria-hidden="true"></i>
                                 <input type="text" placeholder="Имя">
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-6 posRelative">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
                                 <input type="text" placeholder="Email">
                             </div>
                         </div>
