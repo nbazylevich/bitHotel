@@ -7,6 +7,7 @@ header{
 	color: #fff;
 	background: linear-gradient(to bottom, #0230f5, #02d0d6);
 	height: 872px;
+	padding-top: 35px;
 }
 
 .menu__list {
@@ -72,7 +73,7 @@ header{
 .buttonExit{
 	border: 1px solid #ffffff;
 	border-radius: 20px;
-	padding: 5px 20px;
+	padding: 5px 40px;
 	height: 36px;
 }
 .selectLang:hover,
@@ -84,7 +85,7 @@ header{
 }
 .headerRightBlock{
 	padding-top: 10px;
-	float:right;
+	/*float:right;*/
 }
 
 .headerBlock{
@@ -114,9 +115,13 @@ header{
 	box-shadow: 0 0 20px 7px rgba(255, 254, 254, 0.5);
 	border: 3px solid white;
 }
+.buyHotelcoin:hover,
+.loadWhitePaper:hover{
+	box-shadow: 0 0 20px 7px rgba(255, 254, 254, 0.7);
+}
 .buyHotelcoin{
 	background-color: #ffffff;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 .buyHotelcoin span,
 .loadWhitePaper span{
@@ -132,6 +137,10 @@ header{
 .newAndState{
     margin-top: -150px;
 }
+.newAndState .badge {
+	background-color: #ffc80b;
+	color: black
+}
 .buidState,
 .projectNews{
     width: 240px;
@@ -142,6 +151,7 @@ header{
 .projectNews h4{
     margin-top: 10px;
     color: #0081c4;
+	font-weight: bold;
 }
 .buidState .iconsPr,
 .projectNews .iconsPr{
@@ -182,9 +192,6 @@ header{
 }
 .block2 .rowItems{
 	margin: 40px 0 40px 0;
-}
-.privilege{
-	width: 224px
 }
 h3{
 	color:#212121;
@@ -263,6 +270,10 @@ footer{
 	position: absolute;
 	top: 27px;
 	left: 140px;
+}
+.blueLineLeft{
+	left: -127px;
+	background-color: white;
 }
 .contact-text{
 	margin-bottom: 30px;

@@ -13,31 +13,40 @@
 <!--Заголовок-->
 <header>
     <div class="container">
-        <img src="img/logo@2x.png" alt="logo" id="logo">
 
-        <div class="inlineBlock">
-            <menu class="menu__list">
-                <li class="menu__list-item"><a href="#" class="menu__list-link uppercase">Проект</a></li>
-                <li class="menu__list-item"><a href="#" class="menu__list-link uppercase">Белиз</a></li>
-                <li class="menu__list-item"><a href="#" class="menu__list-link uppercase">FAQ</a></li>
-            </menu>
-        </div>
-        <div class="inlineBlock headerRightBlock">
-            <div class="inlineBlock iconSocial">
-                <a href="http://www.facebook.com" class="myBadge cursor"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="http://www.twitter.com" class="myBadge cursor"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="http://www.instagram.com" class="myBadge cursor"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </div>
-            <div class="inlineBlock" style="padding-left: 30px">
-                <div class="selectLang inlineBlock cursor">
-                    <span>Русский</span>
-                    <i class="fa fa-caret-down"></i>
-                </div>
-                <div class="buttonExit inlineBlock cursor">
-                    <span>Выйти</span>
+        <div class="row">
+            <div class="col-xs-7">
+                <img src="img/logo@2x.png" alt="logo" id="logo">
+
+                <div class="inlineBlock">
+                    <menu class="menu__list">
+                        <li class="menu__list-item"><a href="#" class="menu__list-link uppercase">Проект</a></li>
+                        <li class="menu__list-item"><a href="#" class="menu__list-link uppercase">Белиз</a></li>
+                        <li class="menu__list-item"><a href="#" class="menu__list-link uppercase">FAQ</a></li>
+                    </menu>
                 </div>
             </div>
+            <div class="col-xs-5 text-right">
+                <div class="inlineBlock headerRightBlock">
+                    <div class="inlineBlock iconSocial">
+                        <a href="http://www.facebook.com" class="myBadge cursor"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="http://www.twitter.com" class="myBadge cursor"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="http://www.instagram.com" class="myBadge cursor"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="inlineBlock" style="padding-left: 30px">
+                        <div class="selectLang inlineBlock cursor">
+                            <span>Русский</span>
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                        <div class="buttonExit inlineBlock cursor">
+                            <span>Выйти</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
 
 
         <div class="headerBlock uppercase">
@@ -169,23 +178,34 @@
     </div>
 </div>
 
-<div class="block3">
-    <div class="container">
+<div class="block3 posRelative">
+    <div style="position: absolute; top: 106px; height: 7px; width: 100%; background-color: #027be7;z-index: -1;"></div>
+    <div class="container" style="background-color: white">
         <h3 class="text-center">Процесс работы</h3>
 
-        <div class="inlineBlock posRelative" style="margin-right: 45px">
-            <div class="circle text-center">1</div>
-            <img src="img/blueLine.png" alt="blueLine" class="blueLine">
+        <div class="posRelative">
             <div>
-                <div class="grayCircle text-center posRelative" style="display: flex;">
-                    <div class="width-100" style="margin: auto">
-                        <h5>06 Сентября, 2017</h5>
+                <img src="img/blueLineLeft.png" alt="blueLine" class="blueLine blueLineLeft">
+            </div>
+
+            <div class="inlineBlock posRelative" style="margin-right: 45px">
+                <div class="circle text-center posRelative">
+                    <span>1</span>
+                    <div style="position: absolute; width: 4px; height: 95px; background-color: #02d0d6; z-index: 1;left: 30px; top:70px"></div>
+                </div>
+                <img src="img/blueLine.png" alt="blueLine" class="blueLine">
+                <div>
+                    <div class="grayCircle text-center posRelative" style="display: flex; margin-top: 50px">
+                        <div class="width-100" style="margin: auto">
+                            <h5>06 Сентября, 2017</h5>
                         <span>But I must explain to you how all this mistaken idea
                             of denouncing pleasure and praising </span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 
 </div>
