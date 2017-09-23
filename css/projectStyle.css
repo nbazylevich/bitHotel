@@ -1,10 +1,6 @@
 .container{
-	min-width: 1000px;
+	min-width: 1200px;
 	width: 100%;
-	margin: auto;
-}
-.min-container{
-	width: 810px;
 	margin: auto;
 }
 header{
@@ -31,7 +27,6 @@ header{
 .menu__list-link {
 	display: block;
 	padding: 20px 40px;
-	text-transform: uppercase;
 	font-size: 12px;
 	font-family: OpenSans;
 	font-weight: bold;
@@ -51,6 +46,10 @@ header{
 @font-face {
 	font-family: OpenSansLight; /* Имя шрифта */
 	src: url(../fonts/OpenSansLight.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: OpenSansSemibold; /* Имя шрифта */
+	src: url(../fonts/OpenSans-Semibold.ttf); /* Путь к файлу со шрифтом */
 }
 
 .iconSocial .myBadge{
@@ -92,7 +91,6 @@ header{
 	text-align: center;
 	color: white;
 	margin-top: 80px;
-	text-transform: uppercase;
 }
 .aboutOpen{
 	font-size: 12px;
@@ -114,6 +112,7 @@ header{
 	line-height: 61px;
 	border-radius: 49px;
 	box-shadow: 0 0 20px 7px rgba(255, 254, 254, 0.5);
+	border: 3px solid white;
 }
 .buyHotelcoin{
 	background-color: #ffffff;
@@ -130,9 +129,6 @@ header{
 	width: 189px;
 	color: #4c4c4c;
 }
-.loadWhitePaper{
-	border: solid 3px #ffffff;
-}
 .newAndState{
     margin-top: -150px;
 }
@@ -145,7 +141,6 @@ header{
 .buidState h4,
 .projectNews h4{
     margin-top: 10px;
-    text-transform: uppercase;
     color: #0081c4;
 }
 .buidState .iconsPr,
@@ -156,12 +151,18 @@ header{
 .buidState .iconsPr .badge,
 .projectNews .iconsPr .badge{
     position: absolute;
-    left: -10px;
-    top: -10px;
+    left: -30px;
+    top: -20px;
 }
 .buidState img,
 .projectNews img{
     width: 100%;
+}
+.block1{
+	height: 656px;
+}
+.mainImg{
+	margin-top: -246px;
 }
 .block2{
 	height: 764px;
@@ -175,13 +176,25 @@ header{
 	margin-bottom: 40px;
 }
 .block2 h5{
-	text-transform: uppercase;
 	color: #212121;
 	font-size: 12px;
 	font-weight: bold;
 }
 .block2 .rowItems{
-	margin-bottom: 50px;
+	margin: 40px 0 40px 0;
+}
+.privilege{
+	width: 224px
+}
+h3{
+	color:#212121;
+	font-size: 36px !important;
+	margin-bottom: 20px !important;
+	font-family: OpenSansSemibold !important;
+}
+.block3 h5{
+	font-size: 20px;
+	font-weight: bold;
 }
 footer{
 	/*height: 1189px;*/
@@ -192,10 +205,6 @@ footer{
 }
 .fonLocation{
 	background: linear-gradient(to bottom, #023cf4, #0286e5);
-}
-
-address h3{
-	text-transform: uppercase;
 }
 
 .contacts{
@@ -227,4 +236,34 @@ address h3{
 	border-radius: 100px;
 	background-color: #ffffff;
 	color: #4c4c4c;
+}
+.circle {
+	width: 63px;
+	height: 63px;
+	line-height: 63px;
+	background: #02d0d6;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin-left: 75px;
+}
+.grayCircle {
+	width: 218px;
+	height: 218px;
+	background: #fbfbfb;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 110px;
+	display: inline-block;
+}
+.blueLine{
+	width: 200px;
+	position: absolute;
+	top: 27px;
+	left: 140px;
+}
+.contact-text{
+	margin-bottom: 30px;
 }

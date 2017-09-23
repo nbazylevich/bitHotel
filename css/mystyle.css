@@ -18,3 +18,12 @@ html, body{
 .cursor{
 	cursor: pointer;
 }
+.width-100{
+	width: 100%;
+}
+.white-text{
+	color: #ffffff;
+}
+.uppercase{
+	text-transform: uppercase;
+}
