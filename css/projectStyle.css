@@ -245,6 +245,9 @@ footer{
 	background-color: #ffffff;
 	color: #4c4c4c;
 }
+.submit:hover {
+	box-shadow: 0 0 20px 7px rgba(255, 254, 254, 0.3);
+}
 .circle {
 	width: 65px;
 	height: 65px;
