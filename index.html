@@ -191,25 +191,30 @@
 
         <div class="posRelative" style="margin: 100px 0">
             <div>
-                <i class="sprite blueLine iconBlueLineLeft"></i>
-            </div>
-
-            <div ng-repeat="item in itemsWork" class="inlineBlock posRelative" style="padding-right: 45px">
-                <div class="circle text-center posRelative">
-                    <span ng-bind="item.indx"></span>
-                    <div style="position: absolute; width: 4px; height: 95px; background-color: #02d0d6; z-index: 1;left: 30px; top:70px"></div>
-                </div>
-                <i ng-if="!$first" class="sprite blueLine iconBlueLine"></i>
-                <i ng-if="$last" class="sprite blueLine iconBlueLineRight"></i>
                 <div>
-                    <div class="grayCircle text-center posRelative" style="display: flex; margin-top: 50px">
-                        <div class="width-100" style="margin: auto">
-                            <h5 ng-bind="item.date"></h5>
-                        <span ng-bind="item.text"></span>
+                    <i class="sprite blueLine iconBlueLineLeft"></i>
+                </div>
+
+                <div ng-repeat="item in itemsWorkVisible" class="inlineBlock posRelative" style="padding-right: 45px">
+                    <div class="circle text-center posRelative">
+                        <span ng-bind="item.indx"></span>
+                        <div style="position: absolute; width: 4px; height: 95px; background-color: #02d0d6; z-index: 1;left: 30px; top:70px"></div>
+                    </div>
+                    <i ng-if="!$first" class="sprite blueLine iconBlueLine"></i>
+                    <i ng-if="$last" class="sprite blueLine iconBlueLineRight"></i>
+                    <div>
+                        <div class="grayCircle text-center posRelative" style="display: flex; margin-top: 50px">
+                            <div class="width-100" style="margin: auto">
+                                <h5 ng-bind="item.date"></h5>
+                                <span ng-bind="item.text"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <i class="sprite iconArrowRight" ng-click="clickRight()"></i>
+            <i class="sprite iconArrowLeft" ng-click="clickLeft()"></i>
         </div>
 
     </div>
