@@ -212,7 +212,7 @@ footer{
 	margin: 40px 0px;
 }
 .fonLocation{
-	background: linear-gradient(to bottom, #023cf4, #0286e5);
+	background: linear-gradient(to bottom, #083de4, #0286e5);
 }
 
 .contacts{
@@ -277,7 +277,7 @@ footer{
 .blueLine{
 	width: 200px;
 	position: absolute;
-	top: 27px;
+	top: 26px;
 	left: 140px;
 	/*padding: 3px 0;*/
 }
@@ -371,7 +371,7 @@ footer{
 .iconBlueLineLeft{
 	background-position: 0px -200px;
 	height: 55px;
-	left: -125px;
+	left: -65px;
 	background-color: white;
 }
 .iconBlueLine{
@@ -388,17 +388,24 @@ footer{
 }
 .iconArrowRight{
 	background-position: -800px 0px;
-	width: 85px;
-	height: 10px;
+	width: 90px;
+	height: 11px;
 	position: absolute;
 	bottom: 100px;
 	right: 0px;
 }
+.iconArrowRight:hover{
+	background-position: -800px -200px;
+}
 .iconArrowLeft{
 	background-position: -800px -100px;
-	width: 85px;
-	height: 10px;
+	width: 90px;
+	height: 11px;
 	position: absolute;
 	bottom: 100px;
-	left: 0px;
+	left: -40px;
+}
+.iconArrowLeft:hover{
+	background-position: -800px -300px;
+	bottom:98px;
 }

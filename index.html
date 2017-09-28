@@ -185,12 +185,12 @@
 </div>
 
 <div class="block3 posRelative">
-    <div style="position: absolute; top: 186px; height: 7px; width: 100%; background-color: #027be7;"></div>
+    <div ng-if="itemsWorkVisible.length" style="position: absolute; top: 186px; height: 7px; width: 100%; background-color: #027be7;"></div>
     <div class="container" style="background-color: white">
         <h3 class="text-center">Процесс работы</h3>
 
-        <div class="posRelative" style="margin: 100px 0">
-            <div>
+        <div class="posRelative" style="margin: 100px 0;">
+            <div ng-if="itemsWorkVisible.length" style="margin-left: 5%">
                 <div>
                     <i class="sprite blueLine iconBlueLineLeft"></i>
                 </div>
@@ -213,8 +213,8 @@
                 </div>
             </div>
 
-            <i class="sprite iconArrowRight" ng-click="clickRight()"></i>
-            <i class="sprite iconArrowLeft" ng-click="clickLeft()"></i>
+            <i ng-if="itemsWork[endIndx+1]" class="sprite iconArrowRight cursor" ng-click="clickRight()"></i>
+            <i ng-if="itemsWork[startIndx-1]" class="sprite iconArrowLeft cursor" ng-click="clickLeft()"></i>
         </div>
 
     </div>
