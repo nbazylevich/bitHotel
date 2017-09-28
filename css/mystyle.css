@@ -31,3 +31,9 @@ html, body{
 	background-image: url("../img/sprite.png");
 	display: inline-block;
 }
+.marginAuto{
+	margin: auto;
+}
+.vertical-middle{
+	vertical-align: middle;
+}

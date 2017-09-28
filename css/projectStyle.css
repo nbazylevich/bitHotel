@@ -70,6 +70,9 @@ header{
 .myBadge:hover{
 	background-color: #f6f6f6;
 }
+.headerRightButton{
+	padding-left: 30px;
+}
 .selectLang,
 .buttonExit{
 	border: 1px solid #ffffff;
@@ -204,9 +207,25 @@ h3{
 	font-size: 20px;
 	font-weight: bold;
 }
-footer{
-	/*height: 1189px;*/
+.blockWorks{
+	margin: 100px 0;
 }
+.blockWorks > div{
+	margin-left: 5%;
+}
+.blockItemWork{
+	padding-right: 45px
+}
+.lightblueLine{
+	position: absolute;
+	width: 4px;
+	height: 95px;
+	background-color: #02d0d6;
+	z-index: 1;
+	left: 30px;
+	top:70px;
+}
+
 .imgLocation{
 	width: 100%;
 	margin: 40px 0px;
@@ -272,19 +291,25 @@ footer{
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 110px;
-	display: inline-block;
+	display: flex;
+	margin-top: 50px;
+}
+.horizontBlueLine{
+	position: absolute;
+	top: 186px;
+	height: 6px;
+	width: 100%;
+	background-color: #027be7;
 }
 .blueLine{
 	width: 200px;
 	position: absolute;
 	top: 26px;
 	left: 140px;
-	/*padding: 3px 0;*/
 }
 .blueLineLeft{
 	left: -125px;
 	background-color: white;
-	/*padding: 3px 0;*/
 }
 .contact-text{
 	margin-bottom: 30px;
@@ -350,17 +375,17 @@ footer{
 .iconPenCircle{
 	background-position: -200px 0px;
 	width: 100px;
-	height: 100px;
+	height: 99px;
 }
 .iconPlusCircle{
 	background-position: -400px 0px;
 	width: 130px;
-	height: 100px;
+	height: 99px;
 }
 .iconCloudCircle{
 	background-position: -600px 0px;
 	width: 125px;
-	height: 100px;
+	height: 99px;
 }
 .iconLogoFooter{
 	background-position: -400px -100px;

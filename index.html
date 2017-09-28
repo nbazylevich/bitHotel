@@ -33,10 +33,10 @@
                         <a href="http://www.twitter.com" class="myBadge cursor"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         <a href="http://www.instagram.com" class="myBadge cursor"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </div>
-                    <div class="inlineBlock" style="padding-left: 30px">
+                    <div class="inlineBlock headerRightButton uppercase">
                         <div class="selectLang inlineBlock cursor">
-                            <span>Русский</span>
-                            <i class="fa fa-caret-down"></i>
+                            <span class="vertical-middle">Русский</span> &nbsp;
+                            <i class="fa fa-caret-down vertical-middle"></i>
                         </div>
                         <div class="buttonExit inlineBlock cursor">
                             <span>Выйти</span>
@@ -185,26 +185,26 @@
 </div>
 
 <div class="block3 posRelative">
-    <div ng-if="itemsWorkVisible.length" style="position: absolute; top: 186px; height: 7px; width: 100%; background-color: #027be7;"></div>
-    <div class="container" style="background-color: white">
+    <div ng-if="itemsWorkVisible.length" class="horizontBlueLine"></div>
+    <div class="container">
         <h3 class="text-center">Процесс работы</h3>
 
-        <div class="posRelative" style="margin: 100px 0;">
-            <div ng-if="itemsWorkVisible.length" style="margin-left: 5%">
+        <div class="posRelative blockWorks">
+            <div ng-if="itemsWorkVisible.length">
                 <div>
                     <i class="sprite blueLine iconBlueLineLeft"></i>
                 </div>
 
-                <div ng-repeat="item in itemsWorkVisible" class="inlineBlock posRelative" style="padding-right: 45px">
+                <div ng-repeat="item in itemsWorkVisible" class="inlineBlock posRelative blockItemWork">
                     <div class="circle text-center posRelative">
                         <span ng-bind="item.indx"></span>
-                        <div style="position: absolute; width: 4px; height: 95px; background-color: #02d0d6; z-index: 1;left: 30px; top:70px"></div>
+                        <div class="lightblueLine"></div>
                     </div>
                     <i ng-if="!$first" class="sprite blueLine iconBlueLine"></i>
                     <i ng-if="$last" class="sprite blueLine iconBlueLineRight"></i>
                     <div>
-                        <div class="grayCircle text-center posRelative" style="display: flex; margin-top: 50px">
-                            <div class="width-100" style="margin: auto">
+                        <div class="grayCircle text-center posRelative">
+                            <div class="width-100 marginAuto">
                                 <h5 ng-bind="item.date"></h5>
                                 <span ng-bind="item.text"></span>
                             </div>
@@ -273,7 +273,7 @@
         <div class="container bottomFooter">
             <hr>
             <i class="sprite iconLogoFooter"></i>
-            <span class="pull-right" style="color: #ffffff">2017 | All rights reserved</span>
+            <span class="pull-right white-text">2017 | All rights reserved</span>
         </div>
 
 
